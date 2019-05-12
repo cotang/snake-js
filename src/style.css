@@ -1,0 +1,24 @@
+.field{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid #000;
+}
+.row{
+  display: flex;
+}
+.cell{
+  font-size: 11px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+}
+.food{
+  background-color: green;
+}
+.snake{
+  background-color: #999;
+}
+.game-over{
+  color: red;
+}
